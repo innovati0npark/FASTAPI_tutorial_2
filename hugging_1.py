@@ -42,3 +42,4 @@ async def classify_text(data: TextData):
 #     outputs = model.generate(**inputs, max_new_tokens=256)
 #     output_text = tokenizer.batch._decode(outputs, skip_special_tokens=True)[0]
 #     return {"result": output_text}
+
